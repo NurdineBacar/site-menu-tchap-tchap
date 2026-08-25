@@ -170,7 +170,7 @@ export function TchapHome() {
     <main ref={root} className="site">
       <div className={`loader${booting ? '' : ' is-done'}`} aria-busy={booting} aria-label="A carregar Menu Tchap-Tchap">
         <div className="loader-inner">
-          <img src="/logo-tchap.png" alt="Menu Tchap-Tchap" />
+          <img src="/logo-loader.jpg" alt="Menu Tchap-Tchap" width="216" height="216" />
           <span className="loader-track">
             <i className="loader-bar" />
           </span>
