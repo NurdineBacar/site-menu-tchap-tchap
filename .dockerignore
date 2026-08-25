@@ -1,0 +1,14 @@
+node_modules
+.next
+.git
+.gitignore
+*.md
+.env*
+!.env.example
+Dockerfile
+docker-compose.yml
+.dockerignore
+.vscode
+.cursor
+agent-transcripts
+terminals
