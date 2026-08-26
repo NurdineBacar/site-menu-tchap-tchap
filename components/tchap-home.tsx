@@ -21,7 +21,7 @@ const nav = [
 ]
 
 const flow = [
-  'A mesa pede mais cedo, sem ficar à espera da carta.',
+  'A mesa pede mais cedo, sem ficar à espera do menu físico.',
   'A cozinha recebe o pedido certo, com menos idas e voltas.',
   'O menu no telemóvel tem a cara do vosso restaurante.',
   'A conta pede-se na hora e o fecho fica mais simples.',
@@ -32,18 +32,18 @@ const brands = ['A Mesa Verde', 'O Forno Velho', 'Cozinha de Autor', 'Bar do Por
 const pillars = [
   {
     title: 'Quem recebe o cliente',
-    text: 'Apresentação, upsell e acolhimento. O menu digital reforça a presença humana, não a substitui, e os tradicionalistas continuam a receber a carta em mãos.',
-    image: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=900&q=80',
+    text: 'Apresentação, upsell e acolhimento. O menu digital reforça a presença humana, não a substitui, e os tradicionalistas continuam a receber o menu físico em mãos.',
+    image: '/quem%20recebe.jpg',
   },
   {
     title: 'Quem cozinha',
     text: 'Pedidos legíveis e organizados, na ordem em que chegam, vindos do QR ou da mão do garçom, tudo num único fluxo.',
-    image: 'https://images.unsplash.com/photo-1531384441138-2736e62e0919?auto=format&fit=crop&w=900&q=80',
+    image: '/quem%20cozinha.jpg',
   },
   {
     title: 'Quem gere o restaurante',
     text: 'Identidade, menu e fluxo à vista, sem perder o controlo do serviço nem a alma do lugar.',
-    image: 'https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=900&q=80',
+    image: '/quem%20gere%20o%20restaurante.jpg',
   },
 ]
 
@@ -240,7 +240,7 @@ export function TchapHome() {
             <p className="kicker">Portal do menu digital & pedidos por QR</p>
             <h1>O menu digital com a cara do seu restaurante.</h1>
             <p className="lede">
-              Modernize o restaurante sem abolir a carta. Os clientes pedem no telemóvel ou o garçom
+              Modernize o restaurante sem abolir o menu físico. Os clientes pedem no telemóvel ou o garçom
               regista o pedido. A sua identidade fica em cada mesa.
             </p>
             <div className="hero-actions">
@@ -253,7 +253,7 @@ export function TchapHome() {
             </div>
             <ul className="hero-points">
               <li>Digital na mesa</li>
-              <li>Carta quando quiser</li>
+              <li>Menu físico quando quiser</li>
               <li>Feito para o serviço real</li>
             </ul>
           </div>
@@ -264,8 +264,8 @@ export function TchapHome() {
             </p>
             <div className="duo">
               <div className="duo-item">
-                <strong>Carta física</strong>
-                <span>Quem prefere o papel, recebe a carta em mãos. Nada se perde.</span>
+                <strong>Menu físico</strong>
+                <span>Quem prefere o papel, recebe o menu físico em mãos. Nada se perde.</span>
               </div>
               <div className="duo-item">
                 <strong>Pedido por QR</strong>
@@ -305,9 +305,9 @@ export function TchapHome() {
           <div className="how-top reveal">
             <div className="split-copy">
               <p className="kicker dark">A mudança</p>
-              <h2>Um QR na mesa. A carta pode ficar.</h2>
+              <h2>Um QR na mesa. O menu físico pode ficar.</h2>
               <p className="lede ink">
-                O Menu Tchap-Tchap celebra a coexistência: o código QR convive com a carta impressa, e o
+                O Menu Tchap-Tchap celebra a coexistência: o código QR convive com o menu físico, e o
                 pedido entra no mesmo fluxo, seja do telemóvel do cliente ou da mão do garçom.
               </p>
               <ul className="flow">
@@ -322,7 +322,7 @@ export function TchapHome() {
             <div className="stage">
               <div className="devices">
                 <article className="paper-menu" aria-hidden="true">
-                  <small>Carta da casa</small>
+                  <small>Menu físico da casa</small>
                   <strong>Menu de hoje</strong>
                   <i />
                   <i />
@@ -428,7 +428,7 @@ export function TchapHome() {
             <p>“Os pedidos chegam mais limpos, e o restaurante respira.”</p>
             <div className="person">
               <img
-                src="https://images.unsplash.com/photo-1522529592750-1ee5dad30e44?auto=format&fit=crop&w=400&q=80"
+                src="/dono%20de%20restaurante.jpg"
                 alt="Paulo"
               />
               <div>
@@ -438,7 +438,7 @@ export function TchapHome() {
             </div>
           </article>
           <article className="quote-block reveal">
-            <p>“Quem quer a carta, tem. Quem quer o telemóvel, pede. Nós focamos em servir.”</p>
+            <p>“Quem quer o menu físico, tem. Quem quer o telemóvel, pede. Nós focamos em servir.”</p>
             <div className="person">
               <img
                 src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=400&q=80"
@@ -458,7 +458,7 @@ export function TchapHome() {
         <div className="wrap reveal">
           <h2>Pronto para modernizar o restaurante com a vossa identidade?</h2>
           <p className="lede">
-            Fale connosco. Mostramos o Menu Tchap-Tchap no contexto do vosso restaurante, entre carta, QR
+            Fale connosco. Mostramos o Menu Tchap-Tchap no contexto do vosso restaurante, entre menu físico, QR
             e operação, sem lista de preços nesta página.
           </p>
           <div className="contact-actions">

@@ -19,7 +19,7 @@ const display = Fraunces({
 export const metadata: Metadata = {
   title: 'Menu Tchap-Tchap: o menu digital com a cara do seu restaurante',
   description:
-    'O portal que dinamiza e moderniza o restaurante sem abolir a carta. Menu digital e pedidos por QR: o cliente pede no telemóvel ou o garçom regista o pedido. A sua identidade fica em cada mesa.',
+    'O portal que dinamiza e moderniza o restaurante sem abolir o menu físico. Menu digital e pedidos por QR: o cliente pede no telemóvel ou o garçom regista o pedido. A sua identidade fica em cada mesa.',
   icons: {
     icon: [
       { url: '/icon.png', type: 'image/png', sizes: '512x512' },
