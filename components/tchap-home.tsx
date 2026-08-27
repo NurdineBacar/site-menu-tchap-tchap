@@ -330,29 +330,11 @@ export function TchapHome() {
                   <i style={{ width: '70%' }} />
                 </article>
                 <div className="phone">
-                  <div className="phone-screen">
-                    <span className="phone-kicker">Casa do Tchap</span>
-                    <h3>Menu de hoje</h3>
-                    <div className="dish">
-                      <i style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=200&q=70)' }} />
-                      <span>
-                        Peixe do dia
-                        <small>batata, ervas e limão</small>
-                      </span>
-                      <b>18€</b>
-                    </div>
-                    <div className="dish">
-                      <i style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=200&q=70)' }} />
-                      <span>
-                        Arroz de forno
-                        <small>tomate, alho e coentros</small>
-                      </span>
-                      <b>14€</b>
-                    </div>
-                    <div className="feature">
-                      <small>Destaque</small>
-                      <strong>Entrada da casa</strong>
-                    </div>
+                  <div className="phone-screen is-photo">
+                    <img
+                      src="/menu-digital-demo.png"
+                      alt="Menu digital Tchap-Tchap no telemóvel, restaurante Costa Sol"
+                    />
                   </div>
                 </div>
               </div>
